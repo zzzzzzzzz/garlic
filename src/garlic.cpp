@@ -23,7 +23,7 @@ using namespace Onion;
 using namespace Garlic;
 
 void usage(){
-	ONION_INFO("Usage: garlic <configdir> [--check-and-run]");
+	ONION_INFO("Usage: garlic <config file> [--check-and-run]");
 	exit(1);
 }
 
